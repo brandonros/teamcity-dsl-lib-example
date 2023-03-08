@@ -15,7 +15,7 @@
   <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      <url>http://localhost:8081/repository/maven-snapshots/</url> <!-- port forwarded to VM running Nexus in Docker -->
    </snapshotRepository>
   </distributionManagement>
 
